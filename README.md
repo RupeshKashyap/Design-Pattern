@@ -4,6 +4,7 @@ Java Design Pattern
 2. Factory
 3. Builder
 4. ProtoType
+5. Proxy
 
 
 
@@ -57,5 +58,14 @@ Java Design Pattern
 4. ProtoType Design Pattern
 	1. Properties 
 		a. Object which we are coping should be provide coping feature by implementing Cloneable Interface.
-		b. We can override clone() as per our need
+		b. We can override "clone()" as per our need.
+
+5. Proxy Desing Pattern 
+	1. Properties
+		a. Structural Desing Pattern
+		b. Used when we want to access controll e.g in database . you would want to controll delete query for certain users like admin.
+	
+	2. Implementations
+		a. In general, we have class which is executing interface executer method, which is executing all command
+		b. To controll this , we add a new Proxy class,which implements the same interface and write some condition for ""admin"" user before proceeding to actual executer  
 		
