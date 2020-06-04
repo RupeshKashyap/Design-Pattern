@@ -5,6 +5,7 @@ Java Design Pattern
 3. Builder
 4. ProtoType
 5. Proxy
+6. Facede
 
 
 
@@ -68,4 +69,13 @@ Java Design Pattern
 	2. Implementations
 		a. In general, we have class which is executing interface executer method, which is executing all command
 		b. To controll this , we add a new Proxy class,which implements the same interface and write some condition for ""admin"" user before proceeding to actual executer  
+		
+6. Facede Desing Pattern
+	1. Properties
+		a. Structural Desing Pattern
+		b. Used when ther are multiple interfaces for similar kind of job,then we add a *Facede* interface,which is provide better  interface & client.It is basically help in roting to related interface
+		c. e.g. Driver , Databases
+		
+	2. Implementations 
+		a. we will implement *Facede* helper class, which will route to method related to specific class based on input
 		
