@@ -3,6 +3,7 @@ Java Design Pattern
 1. Singleton 
 2. Factory
 3. Builder
+4. ProtoType
 
 
 
@@ -52,3 +53,9 @@ Java Design Pattern
 			e. A "build()" will return final object 
 			f. The main class "Vehicle" has private constructor so create instance only via builder class
 			g. The main class "Vehicle" has only getter method.
+			
+4. ProtoType Design Pattern
+	1. Properties 
+		a. Object which we are coping should be provide coping feature by implementing Cloneable Interface.
+		b. We can override clone() as per our need
+		
