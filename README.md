@@ -8,6 +8,7 @@ Java Design Pattern
 6. Facede
 7. Composite
 8. Decorator
+9. Fly Weight
 
 
 
@@ -99,4 +100,20 @@ Java Design Pattern
 		a.Structural Design Pattern
 		b. Used when we want to modify functionality of an object at runtime,it should not change individual functionality.
 		c. i.e. Adding diferent functionality in Dress
+		
+9. Fly Weight Design Pattern
+	1. Properties
+		a. Structural Design Pattern
+		b. Used when we need to create many objects of a class. We use it to reduce creation of object
+		c. Intrinsic Properties : Which are same for a object.
+		d. Extrinsic Properties : Which are different for a object.
+		
+	2. Implementations
+		a. Interface : Which contains common method : Employee
+		b. Object : Individual Class : Developer And Tester
+		c. Intrinsic Properties : (Developer : fix issue, Tester: test issue)
+		d. Extrinsic Properties : Skills
+		e. We use Factory to use retu object : EmployeeFactory
+		f. Client : Client Class
+		g. We Will assign issue as per the skills
 	
