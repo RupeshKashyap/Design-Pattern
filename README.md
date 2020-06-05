@@ -8,8 +8,9 @@ Java Design Pattern
 6. Facede
 7. Composite
 8. Decorator
-9. Fly Weight
+9. Fly Weight  
 10 Adapter
+11. Bridge 
 
 
 
@@ -130,6 +131,12 @@ Java Design Pattern
 		b. Interface Implementation : Chrome Driver Adapter , Web Driver Adapter.
 		c. Adapter : Web Driver Adapter.
 		d. Adaptee : ieDriver(Internet Explorer).
-		e. Client : AdapterPatternTest
+		e. Client : AdapterPatternTest.
+		
+11 Bridge Design Pattern 
+	1. Properties
+		a. Structural Design Pattern
+		b. Used when we have hierarchies in both interface as welll as implementationand we want to hide the implementation from client.
+		c. It decouled abstraction from it implementation
 		
 	
