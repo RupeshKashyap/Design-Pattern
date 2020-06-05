@@ -7,7 +7,7 @@ Java Design Pattern
 5. Proxy
 6. Facede
 7. Composite
-
+8. Decorator
 
 
 
@@ -93,4 +93,10 @@ Java Design Pattern
 		c. Composite : Composite Account 
 		d. Client : Client Class
 		e. We will get balance of all acount for a person
+		
+8. Decorator Design Pattern
+	1. Properties
+		a.Structural Design Pattern
+		b. Used when we want to modify functionality of an object at runtime,it should not change individual functionality.
+		c. i.e. Adding diferent functionality in Dress
 	
