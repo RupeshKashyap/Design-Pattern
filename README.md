@@ -9,6 +9,7 @@ Java Design Pattern
 7. Composite
 8. Decorator
 9. Fly Weight
+10 Adapter
 
 
 
@@ -116,4 +117,19 @@ Java Design Pattern
 		e. We use Factory to use retu object : EmployeeFactory
 		f. Client : Client Class
 		g. We Will assign issue as per the skills
+		
+10 Adapter Design Pattern
+	1. Properties
+		a. Structural Design Pattern.
+		b. When object offering same features, But has different interface.Charging Adapter, USB through Ethernet Adapter.
+		c. It allows to existing classes to use with others without modify the source code.
+		d. i.e. WebDriver Adapter.
+		
+	2. Implementations 
+		a. Interface : Web Driver. 
+		b. Interface Implementation : Chrome Driver Adapter , Web Driver Adapter.
+		c. Adapter : Web Driver Adapter.
+		d. Adaptee : ieDriver(Internet Explorer).
+		e. Client : AdapterPatternTest
+		
 	
