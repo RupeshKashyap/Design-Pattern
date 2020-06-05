@@ -6,6 +6,7 @@ Java Design Pattern
 4. ProtoType
 5. Proxy
 6. Facede
+7. Composite
 
 
 
@@ -77,5 +78,19 @@ Java Design Pattern
 		c. e.g. Driver , Databases
 		
 	2. Implementations 
-		a. we will implement *Facede* helper class, which will route to method related to specific class based on input
+		a. we will implement *Facede* helper class, which will route to method related to specific class based on input.
 		
+7. Composite Design Pattern
+	1. Properties
+		a. Structural Design Pattern
+		b. Composite lets client treat individual clirnt(leaf), Composition of object (Composite) uniformaly
+		c. Four participents : Component,leaf,composite,client.
+		d. If object is leaf node, request is handle directly, if object is composite , it forword request to child so some operation and combine operation .
+	
+	2. Implementations
+		a. Component : Account class , which contains comman method
+		b. Leaf : Deposite Account and Saving Account
+		c. Composite : Composite Account 
+		d. Client : Client Class
+		e. We will get balance of all acount for a person
+	
