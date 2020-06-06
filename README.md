@@ -11,6 +11,7 @@ Java Design Pattern
 9. Fly Weight  
 10 Adapter
 11. Bridge 
+12. Observer
 
 
 
@@ -119,7 +120,7 @@ Java Design Pattern
 		f. Client : Client Class
 		g. We Will assign issue as per the skills
 		
-10 Adapter Design Pattern
+10. Adapter Design Pattern
 	1. Properties
 		a. Structural Design Pattern.
 		b. When object offering same features, But has different interface.Charging Adapter, USB through Ethernet Adapter.
@@ -133,10 +134,21 @@ Java Design Pattern
 		d. Adaptee : ieDriver(Internet Explorer).
 		e. Client : AdapterPatternTest.
 		
-11 Bridge Design Pattern 
+11. Bridge Design Pattern 
 	1. Properties
 		a. Structural Design Pattern
 		b. Used when we have hierarchies in both interface as welll as implementationand we want to hide the implementation from client.
-		c. It decouled abstraction from it implementation
+		c. It decouled abstraction from it implementation.
+		d. Generally we have remote, which work differently for Sont and Philips TV, but we can have different Remote as well , i,e oldRemotr adn newRemote , which have different method for Each Tv.
+		e. i.e. : TV and Remote implementation
+		
+	2. Implementation
+		a. class hierarchy : TV,SonyTV, Philips TV 
+		b. Interface hierarchy : Remote , OldRemote , NewRemote
+		c. Client : Client class.
+		
+12. Observer Structural Pattern
+	1. Properties
+		a. 
 		
 	
